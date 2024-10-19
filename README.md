@@ -1,9 +1,4 @@
-﻿# typing-test
-### GitHub Project Description: **Typing Test in English**
-
----
-
-#### **Typing Test in English**
+#### **Typing Test**
 
 This project is a modern, minimalist typing test application that helps users improve their typing speed and accuracy in English. It provides a real-time interface where users can practice typing predefined quotes and receive immediate feedback on their performance. The app calculates and displays typing speed in **Words Per Minute (WPM)**, accuracy percentage, and the number of mistakes made. The user can switch between a dark and light theme for a comfortable typing experience.
 
@@ -30,29 +25,6 @@ This project is a modern, minimalist typing test application that helps users im
 
 ---
 
-#### **How to Run the Project**
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/typing-test.git
-   cd typing-test
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Run the server**:
-   ```bash
-   node server.js
-   ```
-
-4. **Open the app in a browser**:
-   Go to `http://localhost:3000` to access the typing test interface.
-
----
-
 #### **Preview**
 
 - Dark Theme:
@@ -73,4 +45,3 @@ This project is a modern, minimalist typing test application that helps users im
 
 This project is a simple and fun way to practice typing, with an intuitive design and helpful feedback to enhance your typing skills.
 
-Let me know if you need further details or adjustments to this description!
