@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Test your typing skills</h1>
+      <div class="stats">
+        <p>Time: <span id="timer">60s</span></p>
+        <p>Mistakes: <span id="mistakes">0</span></p>
+      </div>
+      <div id="quote"></div>
+      <textarea
+        id="quote-input"
+        rows="3"
+        disabled
+        placeholder="Type here when the test starts.."
+      ></textarea>
+      <button id="start-test">Start Test</button>
+      <button id="stop-test">Stop Test</button>
+      <div class="result" style="display: none">
+        <h3>Result</h3>
+        <p>Accuracy: <span id="accuracy">0%</span></p>
+        <p>Speed: <span id="wpm">0 wpm</span></p>
+      </div>
+    </div>
+    <button id="theme-toggle">Switch to Light Theme</button>
+    <script src="script.js"></script>
+  </body>
+</html>

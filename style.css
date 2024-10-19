@@ -1,0 +1,151 @@
+.light-theme {
+  --bg-color: #1c1c1e; /* Background color */
+  --container-bg: #2c2c2e; /* Container background */
+  --text-color: #ffffff; /* Main text color */
+  --quote-color: #e5e5e5; /* Quote color */
+  --input-bg: #1a1a1c; /* Input background */
+  --input-border: #3a3a3c; /* Input border */
+  --button-bg: #44444c; /* Button background */
+  --button-hover-bg: #616163; /* Button hover background */
+  --success-color: #7bd56d; /* Success color */
+  --fail-color: #ff4d4d; /* Fail color */
+}
+
+:root {
+  --bg-color: #f8f8f8; /* Light background color */
+  --container-bg: #ffffff; /* Light container background */
+  --text-color: #333333; /* Dark text */
+  --quote-color: #555555; /* Darker quote color */
+  --input-bg: #f0f0f0; /* Light input background */
+  --input-border: #d1d1d1; /* Light input border */
+  --button-bg: #e0e0e0; /* Light button background */
+  --button-hover-bg: #bdbdbd; /* Light button hover */
+  --success-color: #44b267; /* Darker green for success */
+  --fail-color: #e81c4e; /* Darker red for fail */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  width: 80vmin;
+  padding: 50px 30px;
+  background-color: var(--container-bg);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.heading {
+  text-align: center;
+  font-size: 32px;
+  color: var(--text-color); /* This will adapt to dark and light themes */
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.stats {
+  text-align: right;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.stats span {
+  font-weight: 600;
+}
+
+#quote {
+  text-align: justify;
+  margin: 50px 0 30px 0;
+  font-size: 20px;
+  color: var(--quote-color);
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 18px;
+  outline: none;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+textarea::placeholder {
+  color: #b5b5b7;
+}
+
+button {
+  float: right;
+  margin-top: 20px;
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  border: none;
+  padding: 12px 35px;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.result {
+  margin-top: 40px;
+  display: none;
+}
+
+.result h3 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: var(--quote-color);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapper span {
+  font-weight: 600;
+}
+
+.success {
+  color: var(--success-color);
+}
+
+.fail {
+  color: var(--fail-color);
+}
+
+/* Scrollbar styling */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: var(--input-border);
+  border-radius: 8px;
+}
+
+.container {
+  border: 2px solid var(--input-border);
+}
