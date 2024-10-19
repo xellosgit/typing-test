@@ -1,27 +1,27 @@
 .light-theme {
-  --bg-color: #1c1c1e; /* Background color */
-  --container-bg: #2c2c2e; /* Container background */
-  --text-color: #ffffff; /* Main text color */
-  --quote-color: #e5e5e5; /* Quote color */
-  --input-bg: #1a1a1c; /* Input background */
-  --input-border: #3a3a3c; /* Input border */
-  --button-bg: #44444c; /* Button background */
-  --button-hover-bg: #616163; /* Button hover background */
-  --success-color: #7bd56d; /* Success color */
-  --fail-color: #ff4d4d; /* Fail color */
+  --bg-color: #1c1c1e;
+  --container-bg: #2c2c2e;
+  --text-color: #ffffff;
+  --quote-color: #e5e5e5;
+  --input-bg: #1a1a1c;
+  --input-border: #3a3a3c;
+  --button-bg: #44444c;
+  --button-hover-bg: #616163;
+  --success-color: #7bd56d;
+  --fail-color: #ff4d4d;
 }
 
 :root {
-  --bg-color: #f8f8f8; /* Light background color */
-  --container-bg: #ffffff; /* Light container background */
-  --text-color: #333333; /* Dark text */
-  --quote-color: #555555; /* Darker quote color */
-  --input-bg: #f0f0f0; /* Light input background */
-  --input-border: #d1d1d1; /* Light input border */
-  --button-bg: #e0e0e0; /* Light button background */
-  --button-hover-bg: #bdbdbd; /* Light button hover */
-  --success-color: #44b267; /* Darker green for success */
-  --fail-color: #e81c4e; /* Darker red for fail */
+  --bg-color: #f8f8f8;
+  --container-bg: #ffffff;
+  --text-color: #333333;
+  --quote-color: #555555;
+  --input-bg: #f0f0f0;
+  --input-border: #d1d1d1;
+  --button-bg: #e0e0e0;
+  --button-hover-bg: #bdbdbd;
+  --success-color: #44b267;
+  --fail-color: #e81c4e;
 }
 
 * {
@@ -53,7 +53,7 @@ body {
 .heading {
   text-align: center;
   font-size: 32px;
-  color: var(--text-color); /* This will adapt to dark and light themes */
+  color: var(--text-color);
   margin-bottom: 20px;
   font-weight: 600;
 }
@@ -72,6 +72,10 @@ body {
   margin: 50px 0 30px 0;
   font-size: 20px;
   color: var(--quote-color);
+}
+
+#stop-test {
+  display: none;
 }
 
 textarea {
