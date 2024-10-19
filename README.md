@@ -28,10 +28,12 @@ This project is a modern, minimalist typing test application that helps users im
 #### **Preview**
 
 - Dark Theme:
-![Dark Theme Preview](link-to-dark-theme-preview)
+![Screenshot 2024-10-19 135222](https://github.com/user-attachments/assets/a54583d3-0a8a-4a62-ae68-dfd2784e9785)
+
 
 - Light Theme:
-![Light Theme Preview](link-to-light-theme-preview)
+![Screenshot 2024-10-19 135158](https://github.com/user-attachments/assets/e04e5666-2edb-4e4c-9cc1-3febb18302f6)
+
 
 ---
 
